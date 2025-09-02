@@ -4,6 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fadi Graphics</title>
+
+  <!-- Load Russo One font -->
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
   <style>
     body {
       margin: 0;
@@ -12,73 +16,50 @@
       color: #fff;
     }
 
-    /* Header */
-    .header {
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 50px;
       background: #000;
-      text-align: center;
-      padding: 40px 20px;
     }
 
-    .header h1 {
-      font-size: 40px;
-      margin: 10px 0;
+    header .logo img {
+      width: 100px; /* Adjust as needed */
+    }
+
+    .title h2 {
+      font-family: 'Russo One', sans-serif;
+      font-size: 1.8rem;
+      margin: 0;
       letter-spacing: 2px;
-    }
-
-    .header p {
-      font-size: 18px;
-      color: #ccc;
-    }
-
-    /* About Me Section */
-    .about {
-      background: url('dark-wood.jpg') no-repeat center center/cover;
-      text-align: center;
-      padding: 80px 20px;
-    }
-
-    .about h2 {
-      font-size: 36px;
-      margin-bottom: 15px;
-    }
-
-    .about p {
-      font-size: 20px;
-      margin-bottom: 30px;
-    }
-
-    .btn {
-      display: inline-block;
-      background: red;
       color: #fff;
-      padding: 15px 40px;
-      border-radius: 10px;
-      font-size: 18px;
-      text-decoration: none;
-      font-weight: bold;
-      transition: 0.3s;
     }
 
-    .btn:hover {
-      background: darkred;
+    .title h1 {
+      font-family: 'Russo One', sans-serif;
+      font-size: 3rem;
+      margin: 0;
+      letter-spacing: 3px;
+      color: #fff;
+    }
+
+    .title h1 span {
+      color: red;
     }
   </style>
 </head>
 <body>
 
-  <!-- Header -->
-  <div class="header">
-    <h1>WELCOME TO <span style="color:red;">FADI GRAPHICS</span></h1>
-    <p>Designs that speak louder than words</p>
-    <p style="margin-top:15px;">I'm a Professional Editor, Graphic Designer, Video Editor and Freelancer!</p>
-  </div>
-
-  <!-- About Me -->
-  <div class="about">
-    <h2>About me</h2>
-    <p>Hi, I’m Fahad — a Creative Designer & Front-End Developer.</p>
-    <a href="#contact" class="btn">CONTACT FOR ORDER</a>
-  </div>
+  <header>
+    <div class="logo">
+      <img src="fgggg.png" alt="Fadi Graphics Logo">
+    </div>
+    <div class="title">
+      <h2>WELCOME TO</h2>
+      <h1><span>FADI</span> GRAPHICS</h1>
+    </div>
+  </header>
 
 </body>
 </html>
